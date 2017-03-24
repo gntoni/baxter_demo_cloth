@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="camera_color_topic"            default="/kinect2/qhd/image_color_rect"/>
+  <arg name="camera_depth_topic"          default="/kinect2/qhd/image_depth_rect"/>
+  <arg name="camera_info_topic"              default="/kinect2/qhd/camera_info"/>
+  <arg name="hanging_arm_position"        default="0.7 0.0 0.4"/>
+  <arg name="hanging_arm_orientation"   default="1.0 0.0 0.0 0.0"/>
+</launch>
